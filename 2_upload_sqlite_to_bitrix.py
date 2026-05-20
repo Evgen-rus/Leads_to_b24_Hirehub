@@ -27,8 +27,8 @@ GOOGLE_RETRY_BACKOFF_SECONDS = 1.0
 
 BITRIX_MAX_RETRIES = int(os.getenv("BITRIX_MAX_RETRIES", "3"))
 BITRIX_RETRY_BASE_DELAY = float(os.getenv("BITRIX_RETRY_BASE_DELAY", "1"))
-# Источник: Другое
-BITRIX_SOURCE_ID = os.getenv("BITRIX_SOURCE_ID", "OTHER")
+# Источник: Парсинг
+BITRIX_SOURCE_ID = os.getenv("BITRIX_SOURCE_ID", "UC_M09HMS")
 # Статус: Новый лид
 BITRIX_STATUS_ID = os.getenv("BITRIX_STATUS_ID", "NEW")
 # Ответственный: 
